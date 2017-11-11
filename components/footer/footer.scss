@@ -1,0 +1,29 @@
+.page-footer {
+  background-color: #f2e4d7;
+  color: #2c180d;
+  a {
+    color: #2c180d;
+  }
+  .footer-copyright {
+    color: #2c180d;
+    a {
+      color: #2c180d;
+      &:hover {
+        color: #be3136;
+        text-decoration: underline;
+      }
+    }
+  }
+  .fa {
+    margin-right: 4px;
+  }
+  .social {
+    font-size: 32px;
+    .fa {
+      margin-right: 10px;
+      &:hover {
+        color: #b92f34;
+      }
+    }
+  }
+}
