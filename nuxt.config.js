@@ -5,6 +5,33 @@ module.exports = {
     APP_NAME: 'Confeita Sonhos'
   },
 
+  router: {
+    linkActiveClass: 'active-link',
+    linkExactActiveClass: 'exact-active-link',
+    extendRoutes (routes, resolve) {
+      routes.push({
+        name: '404',
+        path: '*',
+        component: resolve(__dirname, 'pages/404.vue')
+      })
+      routes.push({
+        name: 'home',
+        path: '/',
+        component: resolve(__dirname, 'pages/index.vue')
+      })
+      routes.push({
+        name: 'portfolio',
+        path: '/portfolio',
+        component: resolve(__dirname, 'pages/portfolio.vue')
+      })
+      routes.push({
+        name: 'quem-somos',
+        path: '/quem-somos',
+        component: resolve(__dirname, 'pages/quem-somos.vue')
+      })
+    }
+  },
+
   /*
   ** Headers of the page
   */

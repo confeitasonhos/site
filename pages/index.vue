@@ -1,10 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <h1 class="title">
-        confeita-sonhos-site
-      </h1>
-      <!-- <img src="/images/cakes/1.jpg"> -->
+      <h1 class="title">home</h1>
     </div>
   </section>
 </template>
@@ -13,7 +10,7 @@
 export default {
   head () {
     return {
-      title: 'Confeita Sonhos - Betim'
+      title: 'Home | ' + this.$store.getters.getAppName
     }
   }
 }

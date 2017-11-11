@@ -2,6 +2,9 @@ nav {
   background-color: #f2e4d7;
   a {
     color: #2c180d;
+    &.exact-active-link {
+      color: #be3136;
+    }
   }
   .side-nav {
     background-color: #f2e4d7;
