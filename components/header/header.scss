@@ -1,5 +1,7 @@
 nav {
-  background-color: #f2e4d7;
+  background-color: transparent;
+  box-shadow: initial;
+  position: absolute;
   a {
     color: #2c180d;
     &.exact-active-link {
@@ -7,6 +9,17 @@ nav {
     }
   }
   .side-nav {
-    background-color: #f2e4d7;
+    background-color: #fff;
+  }
+  #nav-desk {
+    a {
+      background-color: #fff;
+      border-radius: 10px;
+      line-height: 30px;
+      margin: 20px 10px 0;
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+    }
   }
 }

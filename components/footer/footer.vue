@@ -1,6 +1,5 @@
 <template>
   <section>
-    <div class="curve"></div>
     <footer class="page-footer">
       <div class="container">
         <div class="row">
@@ -28,7 +27,7 @@
       </div>
       <div class="footer-copyright">
         <div class="container">
-        Copyright &copy; {{currentYear()}} - {{$store.getters.getAppName}}
+        Copyright &copy; {{currentYear()}}
         <span class="text-lighten-4 right">Desenvolvido por <a href="//www.brunosalgado.com.br" target="_blank">Bruno Salgado</a></span>
         </div>
       </div>

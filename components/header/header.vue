@@ -7,7 +7,7 @@
           <router-link :to="{name: 'home'}" class="brand-logo">
             <img src="/images/logo.png">
           </router-link>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul id="nav-desk" class="right hide-on-med-and-down">
             <li><router-link :to="{name: 'home'}">Home</router-link></li>
             <li><router-link :to="{name: 'portfolio'}">Portfólio</router-link></li>
             <li><router-link :to="{name: 'quem-somos'}">Quem Somos</router-link></li>
@@ -20,7 +20,7 @@
         </div>
       </div>
     </nav>
-    <div class="curve"></div>
+    <app-parallax :image="'/images/slide/2.jpg'" :height="400"></app-parallax>
   </header>
 </template>
 <script src="./header"></script>
