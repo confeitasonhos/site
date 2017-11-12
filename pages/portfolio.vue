@@ -58,5 +58,8 @@ export default {
   img {
     max-width: 100%;
   }
+  blockquote {
+    border-color: #be3136;
+  }
 }
 </style>
