@@ -1,10 +1,10 @@
 <template>
   <div class="row">
-    <div class="col s4">
+    <div class="col l4 m12">
       <img :src="image">
     </div>
 
-    <div class="col s8">
+    <div class="col l8 m12">
       <blockquote>{{message}}</blockquote>
     </div>
 
