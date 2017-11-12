@@ -100,10 +100,10 @@ module.exports = {
     link: [
       { rel: 'stylesheet', href: '//fonts.googleapis.com/icon?family=Material+Icons' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', href: '/58x58.png' },
-      { rel: 'apple-touch-icon', sizes: '152x152', href: '/152x152.png' },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: '/180x180.png' },
-      { rel: 'apple-touch-icon', sizes: '167x167', href: '/167x167.png' }
+      { rel: 'apple-touch-icon', href: '/images/icons/58x58.png' },
+      { rel: 'apple-touch-icon', sizes: '152x152', href: '/images/icons/152x152.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/icons/180x180.png' },
+      { rel: 'apple-touch-icon', sizes: '167x167', href: '/images/icons/167x167.png' }
     ]
   },
   /*
