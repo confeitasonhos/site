@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^1.0.2",
     "font-awesome": "^4.7.0",
     "materialize-css": "^0.100.2",
     "node-sass": "^4.6.0",

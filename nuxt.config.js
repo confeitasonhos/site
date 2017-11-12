@@ -5,6 +5,48 @@ module.exports = {
     APP_NAME: 'Confeita Sonhos'
   },
 
+  modules: [
+    ['@nuxtjs/pwa', { icon: false }],
+  ],
+
+  manifest: {
+    "lang": "pt-BR",
+    "orientation": "portrait",
+    "name": "Confeita Sonhos",
+    "short_name": "Confeita Sonhos",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f2e4d7",
+    "description": "Tutoriais e confeitaria de bolos para eventos, aniversários, casamentos, dentre outros.",
+    "icons": [
+      {
+        "src": "/images/icons/48x48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+      }, {
+        "src": "/images/icons/72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      }, {
+        "src": "/images/icons/96x96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      }, {
+        "src": "/images/icons/144x144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      }, {
+        "src": "/images/icons/168x168.png",
+        "sizes": "168x168",
+        "type": "image/png"
+      }, {
+        "src": "/images/icons/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+  },
+
   router: {
     linkActiveClass: 'active-link',
     linkExactActiveClass: 'exact-active-link',
@@ -50,11 +92,18 @@ module.exports = {
       { property: 'og:image:width', content: '950' },
       { property: 'og:image:height', content: '950' },
       { name: 'author', content: 'Bruno Salgado' },
-      { name: 'robots', content: 'index,follow' }
+      { name: 'robots', content: 'index,follow' },
+      { name: 'apple-mobile-web-app-capable', content: 'yes' },
+      { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
+      { name: 'apple-mobile-web-app-title', content: 'Confeita Sonhos' },
     ],
     link: [
       { rel: 'stylesheet', href: '//fonts.googleapis.com/icon?family=Material+Icons' },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', href: '/58x58.png' },
+      { rel: 'apple-touch-icon', sizes: '152x152', href: '/152x152.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/180x180.png' },
+      { rel: 'apple-touch-icon', sizes: '167x167', href: '/167x167.png' }
     ]
   },
   /*
