@@ -13,7 +13,7 @@ export default {
      * @returns {String}
      */
     linkMail () {
-      return 'mailto:contato@comtato.com.br?subject=Contato do site ' + this.$store.getters.getAppName
+      return 'mailto:contato@contato.com.br?subject=Contato do site ' + this.$store.getters.getAppName
     },
 
     /**
