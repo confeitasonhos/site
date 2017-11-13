@@ -12,3 +12,4 @@ dist
 
 sw.*
 workbox-*
+firebase-debug.log
