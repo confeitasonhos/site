@@ -21,7 +21,7 @@
 export default {
   head () {
     return {
-      title: 'Quem Somos | ' + this.$store.getters.getAppName
+      title: 'A Confeitaria | ' + this.$store.getters.getAppName
     }
   }
 }

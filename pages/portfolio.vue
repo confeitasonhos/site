@@ -47,7 +47,7 @@
 export default {
   head () {
     return {
-      title: 'Portfólio | ' + this.$store.getters.getAppName
+      title: 'Produtos | ' + this.$store.getters.getAppName
     }
   }
 }
