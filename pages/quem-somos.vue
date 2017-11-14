@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <h2>Quem Somos</h2>
+    <h2>A Confeitaria</h2>
     <div class="text">
       Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
       <br><br>

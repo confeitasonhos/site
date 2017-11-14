@@ -62,13 +62,13 @@ module.exports = {
         component: resolve(__dirname, 'pages/index.vue')
       })
       routes.push({
-        name: 'portfolio',
-        path: '/portfolio',
+        name: 'produtos',
+        path: '/produtos',
         component: resolve(__dirname, 'pages/portfolio.vue')
       })
       routes.push({
-        name: 'quem-somos',
-        path: '/quem-somos',
+        name: 'a-confeitaria',
+        path: '/a-confeitaria',
         component: resolve(__dirname, 'pages/quem-somos.vue')
       })
     }
@@ -99,6 +99,7 @@ module.exports = {
     ],
     link: [
       { rel: 'stylesheet', href: '//fonts.googleapis.com/icon?family=Material+Icons' },
+      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Courgette' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'apple-touch-icon', href: '/images/icons/58x58.png' },
       { rel: 'apple-touch-icon', sizes: '152x152', href: '/images/icons/152x152.png' },

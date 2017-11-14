@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <h2>Portfólio</h2>
+    <h2>Produtos</h2>
     
     <div class="row list-item">
       <div class="col l4 m12">
