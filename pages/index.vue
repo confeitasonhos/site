@@ -1,11 +1,11 @@
 <template>
   <section>
     <div class="container">
-      <h2 class="title">Mais pedidos!</h2>
+      <h2 class="title">Seu momento é aqui!</h2>
       <div class="row">
-        <app-materialboxed :message="'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Curabitur aliquet quam id dui posuere blandit.'" :image="'/images/slide/2.jpg'"></app-materialboxed>
-        <app-materialboxed :message="'Proin eget tortor risus. Proin eget tortor risus. Cras ultricies ligula sed magna dictum porta.'" :image="'/images/slide/3.jpg'"></app-materialboxed>
-        <app-materialboxed :message="'Cras ultricies ligula sed magna dictum porta. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec sollicitudin molestie malesuada.'" :image="'/images/slide/4.jpg'"></app-materialboxed>
+        <app-materialboxed :message="'Bolo decorado em glasse, com recheio de abaca e coco. Rosas decorativas comestíveis feitas em glasse.'" :image="'/images/cakes/3.jpg'"></app-materialboxed>
+        <app-materialboxed :message="'Bolo com calda de chocolate, decorado com morangos.'" :image="'/images/cakes/5.jpg'"></app-materialboxed>
+        <app-materialboxed :message="'Doces variados, beijinho ou o tão famoso brigadeiro entre outros.'" :image="'/images/cakes/7.jpg'"></app-materialboxed>
       </div>
     </div>
   </section>

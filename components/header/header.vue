@@ -20,7 +20,7 @@
         </div>
       </div>
     </nav>
-    <app-parallax :image="'/images/slide/2.jpg'" :height="500"></app-parallax>
+    <app-parallax :image="'/images/cakes/3.jpg'" :height="500"></app-parallax>
   </header>
 </template>
 <script src="./header"></script>
