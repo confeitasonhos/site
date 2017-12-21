@@ -3,9 +3,9 @@
     <div class="container">
       <h2 class="title">Seu momento é aqui!</h2>
       <div class="row">
-        <app-materialboxed :message="'Bolo decorado em glasse, com recheio de abaca e coco. Rosas decorativas comestíveis feitas em glasse.'" :image="'/images/cakes/3.jpg'"></app-materialboxed>
-        <app-materialboxed :message="'Bolo com calda de chocolate, decorado com morangos.'" :image="'/images/cakes/5.jpg'"></app-materialboxed>
-        <app-materialboxed :message="'Doces variados, beijinho ou o tão famoso brigadeiro entre outros.'" :image="'/images/cakes/7.jpg'"></app-materialboxed>
+        <app-materialboxed :message="'Bolo decorado com flores feitas com glasse, dois andares, massa branca, recheio de doce de leite com coco.'" :image="'/images/cakes/3.jpg'"></app-materialboxed>
+        <app-materialboxed :message="'Bolo pelado, recheio de brigadeiro e beijinho com beijinho, coberto por uma calda de chocolate decorada com granulado e morango'" :image="'/images/cakes/5.jpg'"></app-materialboxed>
+        <app-materialboxed :message="'Doces variados, beijinho ou o tão famoso e tradicional brigadeiro, entre outros.'" :image="'/images/cakes/7.jpg'"></app-materialboxed>
       </div>
     </div>
   </section>

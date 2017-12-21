@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col l6 s12">
             <h5>{{$store.getters.getAppName}}</h5>
-            <p class="text-lighten-4">Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+            <p class="text-lighten-4">Aproveite a oportunidade e deixe uma mensagem em nosso número de telefone (também com Whatsapp) ou Facebook. Vamos fazer seu sonho virar uma delícia.</p>
           </div>
           <div class="col l4 offset-l2 s12">
             <h5>Contato</h5>
