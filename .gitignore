@@ -13,3 +13,4 @@ dist
 sw.*
 workbox-*
 firebase-debug.log
+package-lock.json

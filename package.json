@@ -14,11 +14,12 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^1.0.2",
+    "ajv": "^6.3.0",
     "font-awesome": "^4.7.0",
     "materialize-css": "^0.100.2",
     "node-sass": "^4.6.0",
-    "nuxt": "^1.0.0-rc11",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^6.0.6",
+    "webpack": "^2.7.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
