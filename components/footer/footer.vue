@@ -14,7 +14,7 @@
                 <i class="fa fa-whatsapp" aria-hidden="true"></i><span><a :href="linkTel()">+55 (31) 98806-1081</a></span>
               </li>
               <li>
-                <i class="fa fa-envelope" aria-hidden="true"></i><span><a :href="linkMail()">contato@contato.com.br</a></span>
+                <i class="fa fa-envelope" aria-hidden="true"></i><span><a :href="linkMail()">cida.mlsilva@gmail.com</a></span>
               </li>
             </ul>
             <h5>Rede Social</h5>

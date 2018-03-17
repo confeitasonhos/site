@@ -5,7 +5,7 @@
     <div class="row list-item">
       <div class="col l4 m12">
         <img src="/images/cakes/3.jpg">
-        <blockquote>Bolo decorado com flores feitas com glasse, dois andares, massa branca, recheio de doce de leite com coco.</blockquote>
+        <blockquote>Bolo decorado com flores feitas com chantilly, dois andares, massa branca, recheio de doce de leite com coco.</blockquote>
       </div>
       <div class="col l4 m12">
         <img src="/images/cakes/5.jpg">
