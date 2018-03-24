@@ -11,11 +11,13 @@
             <li><router-link :to="{name: 'home'}">Home</router-link></li>
             <li><router-link :to="{name: 'produtos'}">Produtos</router-link></li>
             <li><router-link :to="{name: 'a-confeitaria'}">A Confeitaria</router-link></li>
+            <!-- <li onclick="openChaPort;"><a>Chat</a></li> -->
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <li><router-link :to="{name: 'home'}">Home</router-link></li>
             <li><router-link :to="{name: 'produtos'}">Produtos</router-link></li>
             <li><router-link :to="{name: 'a-confeitaria'}">A Confeitaria</router-link></li>
+            <!-- <li onclick="openChaPort();"><a>Chat</a></li> -->
           </ul>
         </div>
       </div>

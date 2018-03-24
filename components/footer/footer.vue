@@ -31,6 +31,7 @@
         <span class="text-lighten-4 right">Desenvolvido por <a href="//www.brunosalgado.com.br" target="_blank">Bruno Salgado</a></span>
         </div>
       </div>
+      <script src="/chaport.js"></script>
     </footer>
   </section>
 </template>
