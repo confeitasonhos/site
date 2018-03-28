@@ -18,7 +18,7 @@
     "font-awesome": "^4.7.0",
     "materialize-css": "^0.100.2",
     "node-sass": "^4.6.0",
-    "nuxt": "^1.4.0",
+    "nuxt": "^1.0.0-rc11",
     "sass-loader": "^6.0.6",
     "webpack": "^2.7.0"
   },
