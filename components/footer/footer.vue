@@ -11,7 +11,7 @@
             <h5>Contato</h5>
             <ul>
               <li>
-                <i class="fa fa-whatsapp" aria-hidden="true"></i><span><a :href="linkTel()">+55 (31) 98806-1081</a></span>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i><span><a :href="linkTel()">+55 (31) 99819-1666</a></span>
               </li>
               <li>
                 <i class="fa fa-envelope" aria-hidden="true"></i><span><a :href="linkMail()">cida.mlsilva@gmail.com</a></span>
@@ -21,6 +21,7 @@
             <div class="social">
               <a href="//www.facebook.com/pg/confeitasonhos/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
               <a href="//www.instagram.com/confeitasonhos/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a :href="linkTel()" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>

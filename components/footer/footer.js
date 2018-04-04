@@ -21,7 +21,7 @@ export default {
      * @returns {String}
      */
     linkTel () {
-      return 'tel:+5531988061081'
+      return 'https://api.whatsapp.com/send?phone=5531998191666'
     }
   }
 }
